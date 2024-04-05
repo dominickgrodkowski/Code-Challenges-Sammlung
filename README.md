@@ -14,8 +14,8 @@ Die Challenges wurden in einer Vielzahl von Programmiersprachen gelöst, darunte
 
 - Python
 - JavaScript
-- Java
-- C#
+- React
+- HTML,CSS
 
 Je nach Aufgabenstellung und dem spezifischen Lernziel variiert die verwendete Technologie.
 
