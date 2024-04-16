@@ -12,8 +12,7 @@ This calculation gives you a glimpse into the accelerated pace of aging in dogs 
 ## Usage
 
 To use this converter, simply:
-1. Clone this repository:
-2. Open the `index.html` file in your browser to use the calculator directly from your local environment.
+Clone this repository:
 
 ## License
 
