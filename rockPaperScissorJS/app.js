@@ -58,12 +58,12 @@ const determineWinner = (userChoice, computerChoice) => {
 
 /*console.log(determineWinner('paper', 'scissors'))*/
 
-const playGame = () =>{
-    const userChoice = getUserChoice('rock')
-    const computerChoice = getComputerChoice()
- console.log('User choice:', userChoice);
-console.log('Computer choice:', computerChoice);
-console.log();
-}
+const playGame = () => {
+  const userChoice = getUserChoice("rock");
+  const computerChoice = getComputerChoice();
+  console.log("User choice:", userChoice);
+  console.log("Computer choice:", computerChoice);
+  console.log(determineWinner(userChoice, computerChoice));
+};
 
-playGame()
+playGame();
