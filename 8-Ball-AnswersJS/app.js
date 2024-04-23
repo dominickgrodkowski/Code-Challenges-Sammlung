@@ -1,9 +1,9 @@
 let userName = 'Dominick'
-Dominick ? console.log(`Hello, ${userName}!`)
+userName ? console.log(`Hello, ${userName}!`)
 : console.log(`Hello!`)
 const userQuestion = `Am I gonna master Javascript ?`
 console.log(`${userName} asked: ${userQuestion}`);
-const randomNumber = Math.floor(Math.random()*8)
+let randomNumber = Math.floor(Math.random()*8)
 let eightBall =''
 switch (randomNumber) {
     case 1:
