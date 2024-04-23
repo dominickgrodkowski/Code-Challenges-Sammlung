@@ -100,3 +100,45 @@ Function definition can be made concise using concise arrow notation:
 
 comparing single line and multiline arrow functions */
 
+
+/*Little extra Quiz:
+1. What will this code print to the console?
+
+const sleepTimer = (alarm) => {
+  console.log('My alarm is set for: ' + alarm);
+}
+
+sleepTimer('8:30AM');
+
+Answer: My alarm is set for: 8:30AM
+
+2. Which of the following is a parameter in the block of code below?
+
+let input = 8;
+const controlVal = input / 2 + 3;
+const multiplier = (number, phase) => {
+  const val = number * controlVal + phase;
+  console.log(val);
+};
+
+Answer:  number and phase
+
+3. What best describes what a function in JavaScript is used for?
+
+Answer: A function is a reusable piece of code that can accept input and perform a specific task
+
+4. What will be printed to the console?
+
+const eatFruit = (fruit = 'apple') => {
+  console.log(`This ${fruit} is delicious!`);
+};
+
+eatFruit();
+
+Answer: This Apple is delicious 
+
+5. Which correctly represents the most condensed form of a function?
+
+Answer: Concise body syntax (with one parameter) does not use parentheses, curly braces, or the return keyword.
+Example: const areaOfCircle = radius => Math.PI * radius * radius */
+
