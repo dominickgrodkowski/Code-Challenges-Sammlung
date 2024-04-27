@@ -65,3 +65,25 @@ logVisibleLightWaves();
     7. Global namespace is the space in our code that contains globally scoped information.
     8. Scope pollution is when too many variables exist in a namespace or variable names are reused.
 */
+
+/*
+Additional Questions:
+1. let sayHello = 'Hi there';
+const sayGoodbye = 'Goodbye';
+
+const speakItalian = () => {
+  sayHello = 'Ciao!';
+  console.log(sayHello);
+  console.log(sayGoodbye);
+};
+
+speakItalian();
+
+Answer: 
+Ciao!
+Goodbye
+
+2. What is a globally scoped variable?
+
+Answer: A variable that is accesible to any part of the program
+
