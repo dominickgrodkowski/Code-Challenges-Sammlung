@@ -109,3 +109,67 @@ const target = numberClusters [2] [1]
 12. Arrays can be nested inside other arrays.
 13. To access elements in nested arrays chain indices using bracket notation.
 */
+
+
+/*1. What will happen after running the following code? 
+
+const countries = ['Japan', 'Denmark', 'Mexico', 'Morocco'];
+countries.shift();
+console.log(countries); 
+countries =  ['England', 'Mozambique', 'Cambodia', 'Peru']; 
+console.log(countries); 
+
+Answer: 
+One array will be logged to the console followed by an error message
+['Denmark', 'Mexico', 'Morocco'];
+TypeError: Assignment to constant variable
+
+2. What is the purpose of an array?
+Answer: 
+To store data in an organized fashion
+
+3.What will be logged to the console when we run the code below?
+Code
+
+const cities = ['Chicago', 'San Francisco', 'New York'];
+console.log(cities[3]);
+
+Answer: Undefinied
+
+4. How can you find how many elements are within an array?
+Answer: array.length
+
+5. How could you access the second item, ‘Lion’, in the following code block?
+Code
+const animalArray = ['Sloth', 'Lion', 'Chipmunk'];
+Answer: animalArray[1]
+
+6. What will be logged to the console when we run the code below?
+Code
+
+const myArray = ['item 0', 'item 1', 'item 2'];
+myArray.push('item 3');
+myArray.pop();
+console.log(myArray);
+
+Answer: 
+['item 0', 'item 1', 'item 2']
+
+7. What is the value of topPriority?
+Code
+
+const errands = ['Go to the bank', 'Pick up dry cleaning', 'Go grocery shopping'];
+
+const topPriority = errands.indexOf('Pick up dry cleaning');
+
+Answer: 1
+
+8. What will be printed to the console?
+Code
+
+const fruits = ['Apples', 'Oranges', 'Pears', 'Mangos']; 
+fruits[2] = 'Bananas';
+console.log(fruits); 
+
+Answer: 
+['Apples', 'Oranges', 'Bananas', 'Mangos']
