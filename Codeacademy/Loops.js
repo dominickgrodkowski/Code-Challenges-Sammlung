@@ -28,4 +28,4 @@ for (let i = 0; i < bobsFollowers.length; i++) {
 }
 console.log(mutualFollowers);
 
-const cards = ['diamond', 'spade', 'heart', 'club'];
+
