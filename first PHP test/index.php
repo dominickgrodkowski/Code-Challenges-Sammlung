@@ -5,3 +5,5 @@
 <footer>
     <p>And this code is back in plain HTML</p>
 </footer>
+<?php
+echo "I love PHP!";
