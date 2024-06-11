@@ -100,3 +100,49 @@ function calculateVolume($height, $width, $depth)
     return $height * $width * $depth;
 }
 echo calculateVolume(5, 5, 5);
+?>
+
+<?php
+function calculateTip($total, $tip = 20)
+{
+    return $total * (1 + $tip/100);
+}
+echo calculateTip(100, 25);
+echo "\n";
+echo calculateTip(100);
+echo "\n";
+echo calculateTip(65, 15);
+?>
+
+<?php
+
+$string_one = "you have teeth";
+$string_two = "toads are nice";
+$string_three = "brown is my favorite color";
+
+function convertToQuestion(&$str)
+{
+    $str = "Do you think " . $str . "?\n";
+}
+
+
+convertToQuestion($string_one);
+convertToQuestion($string_two);
+convertToQuestion($string_three);
+
+echo $string_one;
+echo $string_two;
+echo $string_three;
+
+?>
+
+<?php
+$language = "PHP";
+$topic = "scope";
+
+function generateLessonName($language, $concept)
+{
+    return $language . ": " . $concept;
+}
+
+echo generateLessonName($language, $topic);
